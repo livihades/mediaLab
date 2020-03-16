@@ -14,6 +14,7 @@
 <?import javafx.scene.text.Text?>
 
 
+
 <AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox alignment="CENTER" prefHeight="580.0" prefWidth="975.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -22,18 +23,18 @@
               <menus>
                 <Menu mnemonicParsing="false" text="Simulation">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Start" />
-                        <MenuItem mnemonicParsing="false" text="Load" />
-                        <MenuItem mnemonicParsing="false" text="Exit" />
+                     <MenuItem mnemonicParsing="false" text="Start" fx:id="Start"  />
+                     <MenuItem mnemonicParsing="false" text="Load" fx:id="Load"  />
+                     <MenuItem mnemonicParsing="false" text="Exit" fx:id="Exit"  />
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Details">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="Gates" />
-                        <MenuItem mnemonicParsing="false" text="Flights" />
-                        <MenuItem mnemonicParsing="false" text="Holding" />
-                        <MenuItem mnemonicParsing="false" text="Delayed" />
-                        <MenuItem mnemonicParsing="false" text="Next Departure" />
+                     <MenuItem mnemonicParsing="false" text="Gates" fx:id="Gates"/>
+                     <MenuItem mnemonicParsing="false" text="Flights" fx:id="Flights" />
+                     <MenuItem mnemonicParsing="false" text="Holding" fx:id="Holding"/>
+                     <MenuItem mnemonicParsing="false" text="Delayed" fx:id="Delayed" />
+                     <MenuItem mnemonicParsing="false" text="Next Departure" fx:id="NextDeparture" />
                   </items>
                 </Menu>
               </menus>
