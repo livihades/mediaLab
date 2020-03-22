@@ -7,11 +7,13 @@ public class Parking {
 	public Status parkingStatus;
 	public int maxParkedTime;
 	public int cost;
+	public int spots;
 	
-	public Parking(int parkingType, String parkingID, int cost) {
+	public Parking(int parkingType, int spots, int cost, String parkingID) {
 		this.parkingType = parkingType;
 		this.parkingID = parkingID;
 		this.cost = cost;
+		this.spots = spots;
 	}
 
 	
