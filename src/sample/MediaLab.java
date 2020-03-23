@@ -10,8 +10,8 @@ public class MediaLab {
 	
 	public static void main(String[] args) {
 		
-		FileReader setup = new FileReader("/home/angelos/Desktop/MediaLab Project/examples/setup_default.txt");
-		FileReader airportdefault = new FileReader("/home/angelos/Desktop/MediaLab Project/examples/airport_default.txt");
+		FileReader setup = new FileReader("/C:\\Users\\stzes\\Desktop\\Stelios\\Subjects\\Media Tech\\MediaLab\\examples\\setup_default.txt");
+		FileReader airportdefault = new FileReader("C:\\Users\\stzes\\Desktop\\Stelios\\Subjects\\Media Tech\\MediaLab\\examples\\airport_default.txt");
 		populateFlightList(setup, 5);
 		populateParkingList(airportdefault,4);
 		checkParkingListisPopulated(parkingList);
